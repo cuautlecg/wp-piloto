@@ -1,0 +1,100 @@
+*{
+	font-family: Arial, sans-serif;
+}
+
+#tabServicios{
+	height: 300px;
+	width: 850px;
+}
+
+#tabs{
+	background: #ccc;
+	padding: 10px;
+	text-align: center;	
+}
+
+#tabs a{
+	color: #000;
+	font-size: 14px;
+	padding: 9px 11px 11px 11px;
+	text-decoration: none;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+#tabs a:hover{
+	background: #eee;
+}
+
+.tabContent{
+	display: none;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	
+}
+
+.tabContent{
+	margin-top: 0px;
+}
+
+/*
+.tabContent p{
+
+.descripcionServicios{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	font-size:14px;
+	height: 160px;
+	margin-top: 0px;
+	
+	padding: 10px;
+	line-height: 1.4em;
+	-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-o-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+}
+	
+}
+*/
+
+#tabContentImgConsultoria{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #fff;
+	
+	-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-o-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+}
+
+.tabContentTextConsultoria{
+	line-height: 130%;
+	text-align: justify;
+	font-size:14px;
+		
+}
+
+.tabContentTextConsultoria img{
+	
+	margin: 0px;	
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	
+	float:left;
+	-webkit-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	-o-box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+	box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+}
+
+
+.tabActual{
+	background: #fff !important;
+}
